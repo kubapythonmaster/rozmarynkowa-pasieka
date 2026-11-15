@@ -957,8 +957,36 @@ button {
     min-height: 100svh;
   }
 
+  .hero-shade {
+    background:
+      linear-gradient(180deg, rgba(8, 6, 4, 0.72) 0%, rgba(8, 6, 4, 0.22) 18%, transparent 32%),
+      linear-gradient(0deg, rgba(8, 6, 4, 0.62) 0%, transparent 24%),
+      radial-gradient(ellipse 96% 62% at 50% 46%, rgba(8, 6, 4, 0.84) 0%, rgba(8, 6, 4, 0.62) 55%, rgba(8, 6, 4, 0.28) 100%);
+  }
+
   .hero h1 {
-    font-size: clamp(2.55rem, 11vw, 3.5rem);
+    font-size: clamp(2.7rem, 12vw, 3.6rem);
+    text-shadow: 0 2px 18px rgba(8, 6, 4, 0.9);
+  }
+
+  .hero-kicker,
+  .hero-lead,
+  .hero-call {
+    color: #fff;
+    text-shadow: 0 2px 14px rgba(8, 6, 4, 0.9);
+  }
+
+  .hero-kicker {
+    font-size: 1.02rem;
+  }
+
+  .hero-lead {
+    font-size: 1.22rem;
+  }
+
+  .hero-call {
+    font-size: 1.15rem;
+    border-bottom-color: #fff;
   }
 
   .hero-copy {
@@ -986,7 +1014,7 @@ button {
   }
 
   .hero h1 {
-    font-size: 2.35rem;
+    font-size: 2.65rem;
   }
 
   .hero-copy {
