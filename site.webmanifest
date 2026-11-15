@@ -1,0 +1,17 @@
+{
+  "name": "Rozmarynkowa Pasieka",
+  "short_name": "Pasieka",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fffdf8",
+  "theme_color": "#fffdf8",
+  "lang": "pl",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
